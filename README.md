@@ -9,7 +9,7 @@ Setup:
 3. Run `cd DriftBot-beta/DriftBot` to enter the file.
 4. Create a profile in https://discord.com/developers/applications/ for your bot and copy the token.
 5. Open an editor and create a .env file for token, in the file type `TOKEN=` and put your token after that.
-6. Install discord.py and youtube-dl by running `python3 -m pip install discord.py youtube-dl` in your terminal.
+6. Install discord.py, youtube-dl and dotenv by running `python3 -m pip install discord.py youtube-dl dotenv` in your terminal.
 7. Then launch the bot by running `python3 DriftBot.py`
 
 The change-prefix command isn't functional yet, the current default prefix is "!", to change it edit the DriftBot.py file and change replace "!" in
