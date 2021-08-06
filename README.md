@@ -5,15 +5,15 @@ DriftBot is a light and open source Discord bot written in discord.py by Driftri
 
 Setup:
 1. Download DriftBot by `git clone https://github.com/Driftrinar/DriftBot-beta/`
-2. install python3 by going to your terminal and installing python3 with your package manager, example: `sudo apt install python3`
-3. run `cd DriftBot-beta/DriftBot` to enter the file.
-4. create a profile in https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications for your bot and copy the token.
-5. open an editor and create a .env file for token, in the file type `TOKEN=` and put your token after that.
-6. install discord.py and youtube-dl by running `python3 -m pip install discord.py youtube-dl` in your terminal.
-7. then launch the bot by running `python3 DriftBot.py`
+2. Install python3 by going to your terminal and installing python3 with your package manager, example: `sudo apt install python3`.
+3. Run `cd DriftBot-beta/DriftBot` to enter the file.
+4. Create a profile in https://discord.com/developers/applications/ for your bot and copy the token.
+5. Open an editor and create a .env file for token, in the file type `TOKEN=` and put your token after that.
+6. Install discord.py and youtube-dl by running `python3 -m pip install discord.py youtube-dl` in your terminal.
+7. Then launch the bot by running `python3 DriftBot.py`
 
 The change-prefix command isn't functional yet, the current default prefix is "!", to change it edit the DriftBot.py file and change replace "!" in
-`bot = commands.Bot(command_prefix="!")`
+`bot = commands.Bot(command_prefix="!")`.
 
 Contact: Driftrinar.xyz
 
