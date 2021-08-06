@@ -7,7 +7,7 @@ Setup:
 2. install python3 by going to your terminal and installing python3 with your package manager, example: `sudo apt install python3`
 3. run `cd DriftBot-beta/DriftBot` to enter the file.
 4. create a profile in https://discord.com/login?redirect_to=%2Fdevelopers%2Fapplications for your bot and copy the token.
-5. open an editor and add your token to the .env file after the `TOKEN=`
+5. open an editor and create a .env file for token, in the file type `TOKEN=` and put your token after that.
 6. install discord.py and youtube-dl by running `python3 -m pip install discord.py youtube-dl` in your terminal.
 7. then launch the bot by running `python3 DriftBot.py`
 
